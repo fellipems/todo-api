@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController         // classe seja um componente do Spring, escaneando e resgistrar como um componente REST. Para que ele receba requisições e envie respostas
 @RequestMapping("/api/todos")       // mapemaento de URL para quis serão feitas as requisições desta api
-@CrossOrigin("https://fellipems.github.io/")       // colocamos esse Cross pois nosso dominio é diferente do domínio da nossa API. Aqui, configuramos a nossa API para que possa aceitar requisições deste domínio
+@CrossOrigin("https://fellipems.github.io")       // colocamos esse Cross pois nosso dominio é diferente do domínio da nossa API. Aqui, configuramos a nossa API para que possa aceitar requisições deste domínio
 public class TodoController {
 
     @Autowired
